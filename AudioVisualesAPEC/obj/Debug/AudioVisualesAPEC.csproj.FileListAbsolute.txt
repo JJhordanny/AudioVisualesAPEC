@@ -1,1 +1,8 @@
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\AudioVisualesAPEC.exe.config
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\AudioVisualesAPEC.exe
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\AudioVisualesAPEC.pdb
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.Properties.Resources.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.csproj.GenerateResource.Cache
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.exe
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.pdb
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmPrincipal.resources

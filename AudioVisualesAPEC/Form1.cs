@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace AudioVisualesAPEC
 {
-    public partial class Form1 : Form
+    public partial class frmPrincipal : Form
     {
-        public Form1()
+        public frmPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void préstamoYDevoluciónDeEquiposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
