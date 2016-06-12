@@ -26,5 +26,16 @@ namespace AudioVisualesAPEC
         {
             Application.Exit();
         }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void equiposToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMantTiposEquipos frmTiposEquipos = new frmMantTiposEquipos();
+            frmTiposEquipos.ShowDialog();
+        }
     }
 }

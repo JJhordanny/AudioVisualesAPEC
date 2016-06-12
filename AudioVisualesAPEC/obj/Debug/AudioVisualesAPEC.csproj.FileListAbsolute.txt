@@ -6,3 +6,10 @@ C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPE
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.exe
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.pdb
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmPrincipal.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\EntityFramework.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\EntityFramework.xml
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.csprojResolveAssemblyReference.cache
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdTiposEquipos.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmMantTiposEquipos.resources
