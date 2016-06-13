@@ -90,6 +90,12 @@
     <Compile Include="frmEdTiposEquipos.Designer.cs">
       <DependentUpon>frmEdTiposEquipos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMantMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantMarcas.Designer.cs">
+      <DependentUpon>frmMantMarcas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMantTiposEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEdTiposEquipos.resx">
       <DependentUpon>frmEdTiposEquipos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantMarcas.resx">
+      <DependentUpon>frmMantMarcas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMantTiposEquipos.resx">
       <DependentUpon>frmMantTiposEquipos.cs</DependentUpon>

@@ -37,5 +37,11 @@ namespace AudioVisualesAPEC
             frmMantTiposEquipos frmTiposEquipos = new frmMantTiposEquipos();
             frmTiposEquipos.ShowDialog();
         }
+
+        private void marcasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmMarcas = new frmMantMarcas();
+            frmMarcas.ShowDialog();
+        }
     }
 }
