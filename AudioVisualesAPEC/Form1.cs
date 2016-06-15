@@ -34,7 +34,8 @@ namespace AudioVisualesAPEC
 
         private void equiposToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmMantTiposEquipos frmTiposEquipos = new frmMantTiposEquipos();
+            var frmTiposEquipos = new frmMantTiposEquipos();
+            //frmMantTiposEquipos frmTiposEquipos = new frmMantTiposEquipos();
             frmTiposEquipos.ShowDialog();
         }
 
@@ -42,6 +43,36 @@ namespace AudioVisualesAPEC
         {
             var frmMarcas = new frmMantMarcas();
             frmMarcas.ShowDialog();
+        }
+
+        private void modelosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmModelos = new frmMantModelos();
+            frmModelos.ShowDialog();
+        }
+
+        private void tecnologíasConexiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmTecnologiasConexion = new frmMantTecnologiasConexion();
+            frmTecnologiasConexion.ShowDialog();
+        }
+
+        private void equiposToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var frmEquipos = new frmMantEquipos();
+            frmEquipos.ShowDialog();
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmUsuarios = new frmMantUsuarios();
+            frmUsuarios.ShowDialog();
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var frmEmpleados = new frmMantEmpleados();
+            frmEmpleados.ShowDialog();
         }
     }
 }

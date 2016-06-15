@@ -95,30 +95,35 @@
             this.modelosToolStripMenuItem.Name = "modelosToolStripMenuItem";
             this.modelosToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.modelosToolStripMenuItem.Text = "Modelos";
+            this.modelosToolStripMenuItem.Click += new System.EventHandler(this.modelosToolStripMenuItem_Click);
             // 
             // tecnologíasConexiónToolStripMenuItem
             // 
             this.tecnologíasConexiónToolStripMenuItem.Name = "tecnologíasConexiónToolStripMenuItem";
             this.tecnologíasConexiónToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.tecnologíasConexiónToolStripMenuItem.Text = "Tecnologías Conexión";
+            this.tecnologíasConexiónToolStripMenuItem.Click += new System.EventHandler(this.tecnologíasConexiónToolStripMenuItem_Click);
             // 
             // equiposToolStripMenuItem1
             // 
             this.equiposToolStripMenuItem1.Name = "equiposToolStripMenuItem1";
             this.equiposToolStripMenuItem1.Size = new System.Drawing.Size(190, 22);
             this.equiposToolStripMenuItem1.Text = "Equipos";
+            this.equiposToolStripMenuItem1.Click += new System.EventHandler(this.equiposToolStripMenuItem1_Click);
             // 
             // usuariosToolStripMenuItem
             // 
             this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
             this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.usuariosToolStripMenuItem.Text = "Usuarios";
+            this.usuariosToolStripMenuItem.Click += new System.EventHandler(this.usuariosToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
             this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.empleadosToolStripMenuItem.Text = "Empleados";
+            this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
             // procesosToolStripMenuItem
             // 

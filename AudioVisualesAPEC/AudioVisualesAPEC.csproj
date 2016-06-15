@@ -84,11 +84,59 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEdEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdEmpleados.Designer.cs">
+      <DependentUpon>frmEdEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdEquipos.Designer.cs">
+      <DependentUpon>frmEdEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdMarcas.Designer.cs">
+      <DependentUpon>frmEdMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdModelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdModelos.Designer.cs">
+      <DependentUpon>frmEdModelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdTecnologiasConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdTecnologiasConexion.Designer.cs">
+      <DependentUpon>frmEdTecnologiasConexion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEdTiposEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEdTiposEquipos.Designer.cs">
       <DependentUpon>frmEdTiposEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEdUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEdUsuarios.Designer.cs">
+      <DependentUpon>frmEdUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantEmpleados.Designer.cs">
+      <DependentUpon>frmMantEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantEquipos.Designer.cs">
+      <DependentUpon>frmMantEquipos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMantMarcas.cs">
       <SubType>Form</SubType>
@@ -96,11 +144,29 @@
     <Compile Include="frmMantMarcas.Designer.cs">
       <DependentUpon>frmMantMarcas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMantModelos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantModelos.Designer.cs">
+      <DependentUpon>frmMantModelos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantTecnologiasConexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantTecnologiasConexion.Designer.cs">
+      <DependentUpon>frmMantTecnologiasConexion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMantTiposEquipos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMantTiposEquipos.Designer.cs">
       <DependentUpon>frmMantTiposEquipos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMantUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantUsuarios.Designer.cs">
+      <DependentUpon>frmMantUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="Marcas.cs">
       <DependentUpon>ModelAudiovisuales.tt</DependentUpon>
@@ -140,11 +206,26 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEdMarcas.resx">
+      <DependentUpon>frmEdMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdModelos.resx">
+      <DependentUpon>frmEdModelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdTecnologiasConexion.resx">
+      <DependentUpon>frmEdTecnologiasConexion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEdTiposEquipos.resx">
       <DependentUpon>frmEdTiposEquipos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMantMarcas.resx">
       <DependentUpon>frmMantMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantModelos.resx">
+      <DependentUpon>frmMantModelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantTecnologiasConexion.resx">
+      <DependentUpon>frmMantTecnologiasConexion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMantTiposEquipos.resx">
       <DependentUpon>frmMantTiposEquipos.cs</DependentUpon>
@@ -183,6 +264,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Imagenes\Equipos.jpg" />
     <Content Include="ModelAudiovisuales.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ModelAudiovisuales.edmx</DependentUpon>
@@ -206,6 +288,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

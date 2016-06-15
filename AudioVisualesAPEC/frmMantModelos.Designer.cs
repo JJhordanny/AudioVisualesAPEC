@@ -1,6 +1,6 @@
 ﻿namespace AudioVisualesAPEC
 {
-    partial class frmMantMarcas
+    partial class frmMantModelos
     {
         /// <summary>
         /// Required designer variable.
@@ -35,10 +35,10 @@
             this.txtTextoBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dgvMarcas = new System.Windows.Forms.DataGridView();
+            this.dgvModelos = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMarcas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvModelos)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -51,7 +51,7 @@
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(574, 79);
-            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
             // button1
@@ -71,7 +71,6 @@
             this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnBuscar
             // 
@@ -81,7 +80,6 @@
             this.btnBuscar.TabIndex = 4;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
-            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtTextoBuscar
             // 
@@ -101,41 +99,39 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.dgvMarcas);
+            this.groupBox2.Controls.Add(this.dgvModelos);
             this.groupBox2.Location = new System.Drawing.Point(12, 108);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(574, 237);
-            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
-            // dgvMarcas
+            // dgvModelos
             // 
-            this.dgvMarcas.AllowUserToAddRows = false;
-            this.dgvMarcas.AllowUserToDeleteRows = false;
-            this.dgvMarcas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMarcas.Location = new System.Drawing.Point(6, 19);
-            this.dgvMarcas.Name = "dgvMarcas";
-            this.dgvMarcas.ReadOnly = true;
-            this.dgvMarcas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMarcas.Size = new System.Drawing.Size(562, 212);
-            this.dgvMarcas.TabIndex = 0;
-            this.dgvMarcas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMarcas_CellDoubleClick);
+            this.dgvModelos.AllowUserToAddRows = false;
+            this.dgvModelos.AllowUserToDeleteRows = false;
+            this.dgvModelos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvModelos.Location = new System.Drawing.Point(6, 19);
+            this.dgvModelos.Name = "dgvModelos";
+            this.dgvModelos.ReadOnly = true;
+            this.dgvModelos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvModelos.Size = new System.Drawing.Size(562, 212);
+            this.dgvModelos.TabIndex = 0;
             // 
-            // frmMantMarcas
+            // frmMantModelos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 363);
+            this.ClientSize = new System.Drawing.Size(603, 359);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Name = "frmMantMarcas";
-            this.Text = "Mantenimiento Marcas";
-            this.Activated += new System.EventHandler(this.frmMantMarcas_Activated);
-            this.Load += new System.EventHandler(this.frmMantMarcas_Load);
+            this.Name = "frmMantModelos";
+            this.Text = "Mantenimiento de Modelos";
+            this.Load += new System.EventHandler(this.frmMantModelos_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvMarcas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvModelos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,6 +145,6 @@
         private System.Windows.Forms.TextBox txtTextoBuscar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dgvMarcas;
+        private System.Windows.Forms.DataGridView dgvModelos;
     }
 }

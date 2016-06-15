@@ -51,22 +51,24 @@ namespace AudioVisualesAPEC
         {
             frmEdTiposEquipos fte = new frmEdTiposEquipos();
             fte.ShowDialog();
-            //dgvTiposEquipos.DataSource = new BindingSource { DataSource = entities.TiposEquipos.ToList() };
-            //dgvTiposEquipos.Refresh();
         }
 
         private void frmMantTiposEquipos_Activated(object sender, EventArgs e)
         {
-            dgvTiposEquipos.DataSource = new BindingSource { DataSource = entities.TiposEquipos.ToList() };
-            dgvTiposEquipos.Refresh();
+            dgvTiposEquipos.DataSource = entities.TiposEquipos.ToList();
         }
 
         //Metodo para ver campo seleccionado
         private void dgvTiposEquipos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             var row = this.dgvTiposEquipos.SelectedRows[0].DataBoundItem as TiposEquipos;
-            frmEdTiposEquipos fte = new frmEdTiposEquipos(row);
+            var fte = new frmEdTiposEquipos(row);
             fte.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

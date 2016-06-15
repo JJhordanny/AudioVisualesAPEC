@@ -44,8 +44,7 @@ namespace AudioVisualesAPEC
                 Estado = txtEstado.Text,
             });
             entities.SaveChanges();
-            MessageBox.Show("El Registro ha sido Modificado!");
-            
+            MessageBox.Show("El Registro ha sido Actualizado!");
             this.Close();
         }
 
@@ -58,6 +57,7 @@ namespace AudioVisualesAPEC
                 entities.TiposEquipos.Remove(tiposEquipos);
                 entities.SaveChanges();
                 MessageBox.Show("El registro ha sido Eliminado!");
+                this.Close();
             }
             else
             {

@@ -29,15 +29,13 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.cbxCriterio = new System.Windows.Forms.ComboBox();
             this.txtTextoBuscar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvTiposEquipos = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTiposEquipos)).BeginInit();
@@ -48,15 +46,23 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnAgregar);
             this.groupBox1.Controls.Add(this.btnBuscar);
-            this.groupBox1.Controls.Add(this.cbxCriterio);
             this.groupBox1.Controls.Add(this.txtTextoBuscar);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(574, 79);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(484, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 44);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Eliminar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnAgregar
             // 
@@ -78,17 +84,9 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // cbxCriterio
-            // 
-            this.cbxCriterio.FormattingEnabled = true;
-            this.cbxCriterio.Location = new System.Drawing.Point(99, 13);
-            this.cbxCriterio.Name = "cbxCriterio";
-            this.cbxCriterio.Size = new System.Drawing.Size(121, 21);
-            this.cbxCriterio.TabIndex = 3;
-            // 
             // txtTextoBuscar
             // 
-            this.txtTextoBuscar.Location = new System.Drawing.Point(99, 47);
+            this.txtTextoBuscar.Location = new System.Drawing.Point(98, 32);
             this.txtTextoBuscar.Name = "txtTextoBuscar";
             this.txtTextoBuscar.Size = new System.Drawing.Size(121, 20);
             this.txtTextoBuscar.TabIndex = 2;
@@ -96,20 +94,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 50);
+            this.label2.Location = new System.Drawing.Point(13, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(79, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Texto a Buscar";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Criterio";
             // 
             // groupBox2
             // 
@@ -132,15 +121,6 @@
             this.dgvTiposEquipos.Size = new System.Drawing.Size(562, 212);
             this.dgvTiposEquipos.TabIndex = 0;
             this.dgvTiposEquipos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTiposEquipos_CellDoubleClick);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(484, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 44);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Eliminar";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // frmMantTiposEquipos
             // 
@@ -166,10 +146,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.ComboBox cbxCriterio;
         private System.Windows.Forms.TextBox txtTextoBuscar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvTiposEquipos;
         private System.Windows.Forms.Button button1;

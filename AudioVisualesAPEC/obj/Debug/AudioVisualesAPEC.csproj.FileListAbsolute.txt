@@ -13,3 +13,8 @@ C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPE
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdTiposEquipos.resources
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmMantTiposEquipos.resources
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmMantMarcas.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdMarcas.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdModelos.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmMantModelos.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdTecnologiasConexion.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmMantTecnologiasConexion.resources
