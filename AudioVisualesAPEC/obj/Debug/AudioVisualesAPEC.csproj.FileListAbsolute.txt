@@ -39,3 +39,16 @@ C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesA
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.csproj.GenerateResource.Cache
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.exe
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.pdb
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmReporte.resources
