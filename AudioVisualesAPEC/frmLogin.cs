@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace AudioVisualesAPEC
 {
@@ -19,8 +20,21 @@ namespace AudioVisualesAPEC
 
         private void btnLoging_Click(object sender, EventArgs e)
         {
-            var frmPrincipal = new frmPrincipal();
-            frmPrincipal.ShowDialog();
+            SqlConnection con = new SqlConnection(@"Data Source=.\;Initial Catalog=dbAudiovisuales;Integrated Security=True");
+            SqlDataAdapter sda = new SqlDataAdapter("select COUNT(*) from Login where UserName ='" + txtUser.Text + "' and Password = '" + txtPass.Text + "'", con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            if (dt.Rows[0][0].ToString() == "1")
+            {
+                this.Hide();
+                var frmPrincipal = new frmPrincipal();
+                frmPrincipal.Show();
+            }
+            else
+            {
+                MessageBox.Show("Por favor revisar su Usuario y Contraseña");
+            }
         }
     }
 }
