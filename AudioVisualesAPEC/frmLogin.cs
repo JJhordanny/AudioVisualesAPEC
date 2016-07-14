@@ -36,5 +36,11 @@ namespace AudioVisualesAPEC
                 MessageBox.Show("Por favor revisar su Usuario y Contraseña");
             }
         }
+
+        private void lnkPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var frmRecuperarDatos = new frmRestaurarCredenciales();
+            frmRecuperarDatos.ShowDialog();
+        }
     }
 }

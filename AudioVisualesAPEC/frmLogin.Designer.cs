@@ -66,6 +66,7 @@
             this.lnkPass.TabIndex = 7;
             this.lnkPass.TabStop = true;
             this.lnkPass.Text = "¿Olvidó su Contraseña?";
+            this.lnkPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkPass_LinkClicked);
             // 
             // btnLoging
             // 
