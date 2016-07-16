@@ -53,3 +53,4 @@ C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesA
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.exe
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.pdb
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmRestaurarCredenciales.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.csprojResolveAssemblyReference.cache

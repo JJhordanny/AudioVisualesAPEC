@@ -50,7 +50,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pbEquipo = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbEquipo)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -204,16 +206,27 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.pbEquipo);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Info;
             this.groupBox1.Location = new System.Drawing.Point(12, 105);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(872, 196);
+            this.groupBox1.Size = new System.Drawing.Size(872, 277);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Mantenimientos";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(2, 180);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 24);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Equipos";
             // 
             // pictureBox1
             // 
@@ -225,6 +238,15 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(292, 180);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 24);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Marcas";
             // 
             // frmPrincipal
             // 
@@ -244,6 +266,7 @@
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbEquipo)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -272,6 +295,8 @@
         private System.Windows.Forms.PictureBox pbEquipo;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
