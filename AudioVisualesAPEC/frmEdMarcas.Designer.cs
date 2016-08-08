@@ -142,7 +142,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "frmEdMarcas";
-            this.Text = "Agregar / Editar Marcas";
+            this.Text = "Agregar - Editar / Marcas";
             this.Load += new System.EventHandler(this.frmEdMarcas_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

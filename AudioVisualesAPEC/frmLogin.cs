@@ -21,11 +21,16 @@ namespace AudioVisualesAPEC
         private void btnLoging_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=.\;Initial Catalog=dbAudiovisuales;Integrated Security=True");
-            SqlDataAdapter sda = new SqlDataAdapter("select COUNT(*) from Login where UserName ='" + txtUser.Text + "' and Password = '" + txtPass.Text + "'", con);
+            //SqlDataAdapter sda = new SqlDataAdapter("select COUNT(*) from Login where UserName ='" + txtUser.Text + "' and Password = '" + txtPass.Text + "'", con);
+            SqlDataAdapter sda = new SqlDataAdapter("Select Rol from Login Where Username='" + txtUser.Text + "' and Password ='" + txtPass.Text + "'", con);
             DataTable dt = new DataTable();
             sda.Fill(dt);
 
-            if (dt.Rows[0][0].ToString() == "1")
+            //if (dt.Rows.Count == 1)
+            //{
+
+            //}
+            if (dt.Rows[0][0].ToString() == "administrador")
             {
                 this.Hide();
                 var frmPrincipal = new frmPrincipal();

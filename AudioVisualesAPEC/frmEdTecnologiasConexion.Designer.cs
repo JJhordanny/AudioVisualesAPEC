@@ -140,7 +140,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "frmEdTecnologiasConexion";
-            this.Text = "Agregar / Editar Tecnologías Conexión";
+            this.Text = "Agregar - Editar / Tecnologías Conexión";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

@@ -19,7 +19,9 @@ namespace AudioVisualesAPEC
 
         private void préstamoYDevoluciónDeEquiposToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            //this.Hide();
+            //MDIParent proceso = new MDIParent();
+            //proceso.Show();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
