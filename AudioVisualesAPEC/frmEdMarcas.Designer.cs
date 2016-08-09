@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmEdMarcas));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
@@ -74,6 +75,7 @@
             // 
             this.txtIdMarca.Location = new System.Drawing.Point(96, 21);
             this.txtIdMarca.Name = "txtIdMarca";
+            this.txtIdMarca.ReadOnly = true;
             this.txtIdMarca.Size = new System.Drawing.Size(100, 20);
             this.txtIdMarca.TabIndex = 3;
             // 
@@ -116,21 +118,25 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
+            this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.Location = new System.Drawing.Point(205, 19);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(91, 52);
             this.btnEliminar.TabIndex = 1;
-            this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnGuardar
             // 
+            this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
+            this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.Location = new System.Drawing.Point(32, 19);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(91, 52);
             this.btnGuardar.TabIndex = 0;
-            this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
@@ -138,6 +144,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(359, 311);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);

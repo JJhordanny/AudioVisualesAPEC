@@ -75,6 +75,7 @@
             // 
             this.txtIdTipoEquipo.Location = new System.Drawing.Point(96, 21);
             this.txtIdTipoEquipo.Name = "txtIdTipoEquipo";
+            this.txtIdTipoEquipo.ReadOnly = true;
             this.txtIdTipoEquipo.Size = new System.Drawing.Size(100, 20);
             this.txtIdTipoEquipo.TabIndex = 3;
             // 
@@ -119,6 +120,7 @@
             // 
             this.btnEliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEliminar.BackgroundImage")));
             this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.Location = new System.Drawing.Point(188, 19);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(97, 75);
@@ -130,7 +132,7 @@
             // 
             this.btnGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnGuardar.BackgroundImage")));
             this.btnGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.No;
+            this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardar.Location = new System.Drawing.Point(30, 19);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(98, 75);

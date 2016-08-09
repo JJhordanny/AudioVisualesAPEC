@@ -23,13 +23,13 @@ namespace AudioVisualesAPEC
             this.reportViewer1.RefreshReport();
         }
 
-        private void btnCargar_Click(object sender, EventArgs e)
+        private void btnGenerar_Click(object sender, EventArgs e)
         {
             try
             {
                 using (dbAudiovisualesEntities db = new dbAudiovisualesEntities())
                 {
-                    EquiposBindingSource.DataSource = db.Equipos.ToList();
+                    TiposEquiposBindingSource.DataSource = db.TiposEquipos.ToList();
                     reportViewer1.RefreshReport();
                 }
             }

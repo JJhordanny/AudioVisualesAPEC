@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMantModelos));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
@@ -56,29 +57,33 @@
             // 
             // button1
             // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Location = new System.Drawing.Point(484, 19);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 44);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Eliminar";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // btnAgregar
             // 
+            this.btnAgregar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregar.BackgroundImage")));
+            this.btnAgregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAgregar.Location = new System.Drawing.Point(378, 19);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(84, 44);
             this.btnAgregar.TabIndex = 5;
-            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.Text = " ";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // btnBuscar
             // 
+            this.btnBuscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBuscar.BackgroundImage")));
+            this.btnBuscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBuscar.Location = new System.Drawing.Point(274, 19);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(84, 44);
             this.btnBuscar.TabIndex = 4;
-            this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
             // 
             // txtTextoBuscar
@@ -122,6 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(603, 359);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);

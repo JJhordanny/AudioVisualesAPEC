@@ -31,48 +31,48 @@
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.btnCargar = new System.Windows.Forms.Button();
-            this.EquiposBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.EquiposBindingSource)).BeginInit();
+            this.btnGenerar = new System.Windows.Forms.Button();
+            this.TiposEquiposBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.TiposEquiposBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // reportViewer1
             // 
-            reportDataSource1.Name = "Equipos";
-            reportDataSource1.Value = this.EquiposBindingSource;
+            reportDataSource1.Name = "TiposEquipos";
+            reportDataSource1.Value = this.TiposEquiposBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "AudioVisualesAPEC.EquiposReporte.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(12, 12);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(780, 368);
+            this.reportViewer1.Size = new System.Drawing.Size(986, 505);
             this.reportViewer1.TabIndex = 0;
             // 
-            // btnCargar
+            // btnGenerar
             // 
-            this.btnCargar.Location = new System.Drawing.Point(688, 386);
-            this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(104, 34);
-            this.btnCargar.TabIndex = 1;
-            this.btnCargar.Text = "Generar Reporte";
-            this.btnCargar.UseVisualStyleBackColor = true;
-            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
+            this.btnGenerar.Location = new System.Drawing.Point(895, 523);
+            this.btnGenerar.Name = "btnGenerar";
+            this.btnGenerar.Size = new System.Drawing.Size(103, 37);
+            this.btnGenerar.TabIndex = 1;
+            this.btnGenerar.Text = "Generar Reporte";
+            this.btnGenerar.UseVisualStyleBackColor = true;
+            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
             // 
-            // EquiposBindingSource
+            // TiposEquiposBindingSource
             // 
-            this.EquiposBindingSource.DataSource = typeof(AudioVisualesAPEC.Equipos);
+            this.TiposEquiposBindingSource.DataSource = typeof(AudioVisualesAPEC.TiposEquipos);
             // 
             // VistaReporte
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(804, 447);
-            this.Controls.Add(this.btnCargar);
+            this.ClientSize = new System.Drawing.Size(1010, 567);
+            this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.reportViewer1);
             this.Name = "VistaReporte";
             this.Text = "Reporte / AudioVisuales JJ for APEC";
             this.Load += new System.EventHandler(this.VistaReporte_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.EquiposBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TiposEquiposBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -80,7 +80,7 @@
         #endregion
 
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
-        private System.Windows.Forms.Button btnCargar;
-        private System.Windows.Forms.BindingSource EquiposBindingSource;
+        private System.Windows.Forms.Button btnGenerar;
+        private System.Windows.Forms.BindingSource TiposEquiposBindingSource;
     }
 }

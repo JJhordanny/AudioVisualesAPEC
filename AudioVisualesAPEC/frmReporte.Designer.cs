@@ -42,7 +42,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 385);
+            this.ClientSize = new System.Drawing.Size(607, 383);
             this.Controls.Add(this.reportViewer1);
             this.Name = "frmReporte";
             this.Text = "Reporte / Audiovisuales JJ for APEC";

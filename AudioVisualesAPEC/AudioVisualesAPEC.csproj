@@ -80,6 +80,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbAudiovisualesDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dbAudiovisualesDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbAudiovisualesDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Empleados.cs">
       <DependentUpon>ModelAudiovisuales.tt</DependentUpon>
     </Compile>
@@ -281,6 +286,9 @@
     <EmbeddedResource Include="frmMantTiposEquipos.resx">
       <DependentUpon>frmMantTiposEquipos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMantUsuarios.resx">
+      <DependentUpon>frmMantUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmReporte.resx">
       <DependentUpon>frmReporte.cs</DependentUpon>
     </EmbeddedResource>
@@ -317,11 +325,27 @@
     <None Include="dbAudiovisualesDataSet.xss">
       <DependentUpon>dbAudiovisualesDataSet.xsd</DependentUpon>
     </None>
+    <None Include="dbAudiovisualesDataSet1.xsc">
+      <DependentUpon>dbAudiovisualesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbAudiovisualesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbAudiovisualesDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbAudiovisualesDataSet1.xss">
+      <DependentUpon>dbAudiovisualesDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="ModelAudiovisuales.edmx.diagram">
       <DependentUpon>ModelAudiovisuales.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Empleados.datasource" />
     <None Include="Properties\DataSources\Equipos.datasource" />
+    <None Include="Properties\DataSources\Marcas.datasource" />
+    <None Include="Properties\DataSources\Modelos.datasource" />
+    <None Include="Properties\DataSources\TiposEquipos.datasource" />
+    <None Include="Properties\DataSources\Usuarios.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
