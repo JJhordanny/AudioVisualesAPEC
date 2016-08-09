@@ -235,8 +235,18 @@
     <Compile Include="Usuarios.cs">
       <DependentUpon>ModelAudiovisuales.tt</DependentUpon>
     </Compile>
+    <Compile Include="VistaReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaReporte.Designer.cs">
+      <DependentUpon>VistaReporte.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EquiposReporte.rdlc" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEdEmpleados.resx">
+      <DependentUpon>frmEdEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEdEquipos.resx">
       <DependentUpon>frmEdEquipos.cs</DependentUpon>
@@ -289,6 +299,9 @@
     <EmbeddedResource Include="Reservacion.resx">
       <DependentUpon>Reservacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VistaReporte.resx">
+      <DependentUpon>VistaReporte.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="ModelAudiovisuales.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>ModelAudiovisuales.Designer.cs</LastGenOutput>
@@ -308,6 +321,7 @@
       <DependentUpon>ModelAudiovisuales.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Equipos.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

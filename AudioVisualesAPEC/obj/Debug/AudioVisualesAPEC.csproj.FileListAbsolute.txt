@@ -54,3 +54,9 @@ C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesA
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.pdb
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmRestaurarCredenciales.resources
 C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.Reservacion.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdEmpleados.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdEquipos.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.frmEdUsuarios.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\AudioVisualesAPEC.VistaReporte.resources
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\RdlCompile.cache
+C:\Users\v-juanh\Desktop\Codigos_Prog-Propietaria\ProyectoFinal-2\AudioVisualesAPEC\AudioVisualesAPEC\obj\Debug\RdlCompile.compiled
